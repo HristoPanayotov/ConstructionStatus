@@ -4,16 +4,19 @@ const SignUp = () => {
 
   return (
     
-    <div className='flex flex-col justify-center items-center h-screen'>
-      <h1 className=''>Are you a construction worker?</h1>
-      <div className='flex flex-row justify-around w-1/4'>
-        <a className="text-cyan-500 hover:text-cyan-700 border bg-red-100 hover:bg-red-300 p-1.5 rounded-md" 
-        href="/sign-up-construction-worker">Yes</a>
+      <div className='flex justify-center items-center'>
+        <img src="/Main-content-shape.svg" alt="" className='w-4/5 relative w-1208'/>
+        <div className='absolute flex flex-col justify-center items-center'>
+        <p className='text-l sm:text-xl md:text-2xl text-white'>Are you a construction worker?</p>
+          <div className='flex flex-row justify-around w-full pt-8'>
+            <a className="bg-button-orange hover:bg-button-orange-hover p-1.5 rounded-md w-2/5 text-center text-white" 
+            href="/sign-up-construction-worker">Yes</a>
 
-        <a className="text-amber-500 hover:text-amber-700 border bg-red-100 hover:bg-red-300 p-1.5 rounded-md" 
-        href="/sign-up-customer">No</a>
-      </div>
-    </div>
+            <a className="bg-button-blue hover:bg-button-blue-hover p-1.5 rounded-md w-2/5 text-center text-white" 
+            href="/sign-up-customer">No</a>
+          </div>
+          </div>
+        </div>
   )
 }
 

@@ -14,7 +14,12 @@ class BurgerMenu extends React.Component {
         <a id="home" className="menu-item" href="/">Home</a>
         <a id="about" className="menu-item" href="/about">About</a>
         <a id="contact" className="menu-item" href="/contact">Contact</a>
-        <a onClick={ this.showSettings } className="menu-item--small" href="">Settings</a>
+        <div className='burgerSignUpSignInBtns w-full h-300'>
+          <div className='flex justify-center gap-20 pt-10'>
+            <a id="sign-up" className='center shadow bg-white hover:bg-gray-200 focus:shadow-outline focus:outline-none text-button-orange py-2 px-4 rounded' href="/sign-up">Sign up</a>
+            <a id="sign-in" className='center shadow bg-button-orange  hover:bg-button-orange-hover focus:shadow-outline focus:outline-none text-white py-2 px-4 rounded' href="/sign-in">Sign in</a>
+          </div>
+        </div>
       </Menu>
     );
   }

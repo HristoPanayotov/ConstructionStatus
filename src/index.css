@@ -18,12 +18,18 @@ body {
   }
 }
 
+/* Disabling the "on click" highlight color on mobile and removing outline for all devices*/
+.logo-no-background-header{
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+}
 /* Position and sizing of burger button */
 .bm-burger-button {
   position: relative;
   width: 36px;
   height: 30px;
   margin-right: 1.5rem;
+  -webkit-tap-highlight-color: transparent;
 }
 @media (min-width: 768px) {
   .bm-burger-button{
@@ -44,6 +50,7 @@ body {
 .bm-cross-button {
   height: 24px;
   width: 24px;
+  -webkit-tap-highlight-color: transparent;
 }
 
 /* Color/shape of close button cross */
@@ -63,7 +70,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 /* General sidebar styles */
 .bm-menu {
-  background: #373a47;
+  background: #36454F;
   padding-top: 2rem;
   text-align: center;
   font-size: 1.15em;
@@ -79,6 +86,16 @@ Note: Beware of modifying this element as it can break the animations - you shou
 .bm-item {
   display: inline-block;
   padding-top: 1rem;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.bm-item:hover{
+  text-decoration: underline;
+}
+
+/* Removing the "on hover" underline effect from Sign up and Sign in buttons in the burger menu */
+.burgerSignUpSignInBtns:hover{
+  text-decoration: none;
 }
 
 /* Styling of overlay */
