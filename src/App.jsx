@@ -8,10 +8,10 @@ import SignUp from './Components/SignUp';
 import SignUpConstructionWorker from './Components/SignUpConstructionWorker';
 import Header from './Components/Header';
 import Home from './Components/Home';
-
+import Footer from './Components/Footer';
 function App() {
   return (
-    <div className='App'>
+    <div className='App min-h-screen flex flex-col'>
       <Router>
           <Header/>
             <Routes>
@@ -23,6 +23,7 @@ function App() {
               <Route element={<SignUpConstructionWorker/>} path='/sign-up-construction-worker' />
               <Route element={<Home/>} path='/' exact/>
             </Routes>
+            <Footer/>
       </Router>
     </div>
   );

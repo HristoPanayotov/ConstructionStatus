@@ -103,3 +103,9 @@ Note: Beware of modifying this element as it can break the animations - you shou
   background: rgba(0, 0, 0, 0.3);
 }
 
+/* Footer colors */
+.footerMainDiv{
+  /* height:600px; */
+  background: conic-gradient(#36454F 0deg 55deg, #41535F 55deg, 235deg, #36454F 235deg 360deg);
+}
+

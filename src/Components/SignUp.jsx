@@ -4,8 +4,8 @@ const SignUp = () => {
 
   return (
     
-      <div className='flex justify-center items-center'>
-        <img src="/Main-content-shape.svg" alt="" className='w-4/5 relative w-1208'/>
+      <div className='flex justify-center items-center mb-28'>
+        <img src="/Main-content-shape.svg" alt="" className='w-4/5 relative'/>
         <div className='absolute flex flex-col justify-center items-center'>
         <p className='text-l sm:text-xl md:text-2xl text-white'>Are you a construction worker?</p>
           <div className='flex flex-row justify-around w-full pt-8'>
